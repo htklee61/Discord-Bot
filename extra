@@ -1,0 +1,11 @@
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+     return
+    if message.content.startswith('one piece'):
+
+      embedAmongus.set_title = ('average one piece fan doesnt know')
+      embed.set_thumbnail( url="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fzoldyck_killua3&psig=AOvVaw35pytiAtLHMZ6SXXGpgCDa&ust=1633272827084000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDih8r9q_MCFQAAAAAdAAAAABAF")
+    embedAmongus.set_description="killua solos"
+    embedAmongus.set_color=0x34df0
+  

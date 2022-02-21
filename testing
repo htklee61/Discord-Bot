@@ -1,0 +1,12 @@
+@client.event
+async def on_message(message):
+    if message.content.startswith('!hello'):
+        embedVar = discord.Embed(title="", description="Desc", color=0x00ff00)
+        embedVar.add_field(name="Field1", value="hi", inline=False)
+        embedVar.add_field(name="Field2", value="hi2", inline=False)
+        await message.channel.send(embed=embedVar)
+
+
+
+e = discord.Embed()
+e.set_image(url="https://static.wikia.nocookie.net/boruto/images/9/9d/375px-NarutoBorutoMovie.jpg/revision/latest?cb=20200121144920")
